@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+guess.egg-info/PKG-INFO
+guess.egg-info/SOURCES.txt
+guess.egg-info/dependency_links.txt
+guess.egg-info/entry_points.txt
+guess.egg-info/requires.txt
+guess.egg-info/top_level.txt
+guess_code/fun.py
