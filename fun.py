@@ -7,8 +7,10 @@ Created on Thu Nov  7 09:25:39 2019
 
 import random
 
-def guess():
-    a= random.randint(10,20)
-    return a
 
-print("Random Number is : ",guess())
+def guess(l, r):
+    return random.randint(l, r)
+
+
+l, r = map(int, input("Enter Two Number (range): ").split())
+print("Random Number is between ", l, "and ", r, "is : ", guess(l, r))
